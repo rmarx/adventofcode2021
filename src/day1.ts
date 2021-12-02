@@ -1,4 +1,5 @@
 
+{
 function execute(input:String) {
 
     //return execute1(input);
@@ -2054,3 +2055,4 @@ const input = `157
 3798`;
 
 execute(input);
+}
