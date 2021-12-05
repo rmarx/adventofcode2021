@@ -1,16 +1,18 @@
 
 {
-    function execute(input:String) {
+    function execute(input:string) {
     
-        return execute1(input);
+        const inputs = input.split("\n").map( (str) => str.trim() );
+
+        return execute1(inputs);
         // return execute2(input);
     }
     
-    function execute1(input:String):void {
+    function execute1(inputs:Array<string>):void {
  
     }
     
-    function execute2(input:String):void {
+    function execute2(inputs:Array<string>):void {
     
     }
     
